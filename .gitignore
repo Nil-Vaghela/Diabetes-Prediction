@@ -1,0 +1,70 @@
+# ---------------------------
+#   PYTHON / ENVIRONMENT
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------------------------
+#   DATA PROTECTION
+#   (DON'T TRACK ANY DATA)
+# ---------------------------
+# Raw Apple Watch health exports
+health_records.csv
+HealthKit_*.xml
+*.xml
+
+# Combined processed files
+apple_watch_combined_full.csv
+apple_watch_daily_features.csv
+
+# Project data folder
+Data/
+data/
+DATA/
+datasets/
+datasets/*
+
+# Patient synthetic data
+Patients_90days/
+patients/
+patients/*
+
+# Any CSV anywhere
+*.csv
+
+# Any Excel
+*.xlsx
+*.xls
+
+# Any JSON logs
+*.json
+
+# ---------------------------
+#   MODELS & ARTIFACTS
+# ---------------------------
+*.h5
+*.keras
+*.onnx
+*.pth
+*.pt
+*.sav
+*.model
+
+# ---------------------------
+#   OS / MAC SYSTEM JUNK
+# ---------------------------
+.DS_Store
+*.swp
+*.swo
